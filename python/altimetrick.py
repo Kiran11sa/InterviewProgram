@@ -1,5 +1,5 @@
 # Count the number of each characters in a given string : "kiran ds testing"
-st= "kiran ds testing"
+st= "kiran is testing"
 dic = {}
 for i in st:
     if i in dic:
@@ -13,4 +13,6 @@ print(sqri)
 
 dict1={"a":22,"b":3, "c":33, "d":10}
 sorting_keys= dict(sorted(dict1.items(), key=lambda x: x[1]))
+print("!!!!!!!!!!!",dict1.items())
+print("@@@@@@",dict1.values())
 print(sorting_keys)

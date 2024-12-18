@@ -1,4 +1,4 @@
-
+#
 # def divide(x, y):  # here, we are creating a function and passing the parameter
 #     print(x / y)  # Here, we are printing the result of the expression
 #
@@ -25,3 +25,4 @@ def outer_div(func):     # here, we are creating a function and passing the para
 @outer_div
 def divide(x,y):      # here, we are creating a function and passing the parameter
      print(x/y)
+divide(4,6)
