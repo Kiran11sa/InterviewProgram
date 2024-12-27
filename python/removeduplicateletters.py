@@ -1,4 +1,4 @@
-s = "Kiranisagoodboysintheworld"
+s = "Kiran is a good boys in the world"
 unique_chars = []
 
 for char in s:
