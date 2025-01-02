@@ -1,6 +1,6 @@
 def remove_leading_zeros(ip):
     parts = ip.split('.')
-    print("parts",parts)
+    print("parts:",parts)
     cleaned_parts = [str(int(part)) for part in parts]
     print(cleaned_parts)
     cleaned_ip = '.'.join(cleaned_parts)

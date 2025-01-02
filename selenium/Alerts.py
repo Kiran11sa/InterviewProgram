@@ -21,3 +21,4 @@ alertwindow.send_keys("welcome")
 
 #alertwindow.accept() #close alert window by using OK button
 alertwindow.dismiss() #close alert window by using Cancel button
+time.sleep(20)
