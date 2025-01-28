@@ -10,6 +10,6 @@ def squar(my_list):
 
 
 # calling the defined function
-my_list = [12,17, 52, 8];
+my_list = [12,17, 52, 8]
 my_result = squar(my_list)
 print("Squares of the list are: ", my_result)

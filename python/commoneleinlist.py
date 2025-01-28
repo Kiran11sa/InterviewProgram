@@ -8,12 +8,12 @@ for x in list1:
             l.append(x)
 print("The common element is:",l)
 l=[]
-print('list',type(l))
+print('list:',type(l))
 l1={}
-print('dic',type(l1))
+print('dic:',type(l1))
 l3=()
-print('tuple',type(l3))
+print('tuple:',type(l3))
 l4=set()
-print('set',type(l4))
+print('set:',type(l4))
 l5=frozenset()
-print('fset',type(l5))
+print('fset:',type(l5))

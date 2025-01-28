@@ -4,7 +4,7 @@ s=[1,2,3,4,5,8,4]
 
 for i in range(0,len(s)):
     if s[i]==4:
-        print("4 is present in::",i)
+        print("4 is present in index::",i)
 
 
 # s = "Kirana"
