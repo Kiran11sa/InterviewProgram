@@ -13,8 +13,8 @@ def CheckLeap(Year):
 Year = int(input("Enter the number: "))
 # Printing result
 
-
 start_time=time.time()
+time.sleep(20)
 CheckLeap(Year)
 end_time=time.time()
-print("time taken by the def function:",start_time-end_time)
+print("time taken by the def function:",end_time-start_time)

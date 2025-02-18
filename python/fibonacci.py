@@ -8,7 +8,7 @@ def generate_fibonacci(n):
     return fib_series
 
 # Number of terms in the Fibonacci series
-n = 10  # Change this value to generate a different number of terms
+n = int(input("enter the num:")) # Change this value to generate a different number of terms
 
 # Generate and print the Fibonacci series
 fibonacci_series = generate_fibonacci(n)

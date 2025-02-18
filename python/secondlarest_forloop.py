@@ -1,4 +1,4 @@
-numbers = [32,45,65,87,78,99,88,91]
+numbers = [32,45,65,87,78,99,88,91,98]
 
 # Initialize first_max and second_max to negative infinity
 first_max = second_max = 0

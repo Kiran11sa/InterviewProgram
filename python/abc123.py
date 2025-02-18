@@ -5,7 +5,7 @@ for i in range(26):
     # letter = chr(97 + i)
     # print(f"({letter},{i+1})", end=", ")
     Letters = chr(65+i)
-    print(f"({Letters},{i+1})",end=',')
+    # print(f"({Letters},{i+1})",end=',')
 # Initialize an empty list to store the letter-number pairs
 # letter_number_pairs = []
 #
@@ -36,9 +36,10 @@ for i in range(26):
     letter = chr(97 + i)
     # Append the tuple (letter, index) to the list
     letter_number_pairs.append((letter, i+1))
-
+print(letter_number_pairs)
 # Format the output as a list without quotes
 formatted_list = [f"({letter},{index})" for letter, index in letter_number_pairs]
+print(formatted_list)
 
 # Print the list as a string with comma-separated values
 print(f"[{', '.join(formatted_list)}]")

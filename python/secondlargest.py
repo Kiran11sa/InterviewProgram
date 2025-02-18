@@ -13,11 +13,11 @@
 #     print("num is even")
 # else:
 #     print("number is  odd")
-f=1
-L=100
+# f=1
+# L=100
 even=[]
 odd=[]
-for i in range(f,L+1):
+for i in range(1,100):
     if i % 2==0:
         even.append(i)
     else:

@@ -8,4 +8,4 @@ hight = 7
 for i in range(1,hight+1):
     spaces = hight - i
     stars = i
-    print( ' '*spaces + "* " * stars)
+    print( ' '*spaces + "*" * stars)

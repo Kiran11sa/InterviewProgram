@@ -4,6 +4,7 @@ n = int(input("Enter a num:"))  # Change this value to generate a different numb
 # Initialize the first two terms
 a, b = 0, 1
 num=[]
+num1=[]
 
 # # Print the first two terms
 # print(a, end=' ')
@@ -13,6 +14,7 @@ num=[]
 for i in range(n):
     num.append(a)
     a, b = b, a + b
-    # num.append(a)
+    # num1.append(a)
 
 print(num)
+print(num1)
