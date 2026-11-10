@@ -1,5 +1,5 @@
 # Count the number of each characters in a given string : "kiran ds testing"
-from python.practice import count
+# from python.practice import count
 
 st= "kiran is testing"
 dic = {}

@@ -2,14 +2,15 @@
 
 # Output :  417.1, 417, 41999, 4.1999, 0012.23
 def extract_numbers(st):
-    parts = st.replace("[", " ").replace("]", " ").replace(","," ").replace("'"," ").split()
+    parts = st.replace("[", " ").replace("]", " ").replace(","," ").replace("'"," ").replace(":"," ").split()
+    print(parts)
     numbers =[]
     for part in parts:
         try:
             num = float(part)
             if num.is_integer():
                 numbers.append(str(int(num)))
-            else:
+            els
                 numbers.append(str(num))
         except ValueError:
             continue
